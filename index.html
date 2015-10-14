@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>barChartModule</title>
+
+  <link rel="stylesheet" href="barChart.css">
+</head>
+<body class="body-container">
+<span id="data-tables">
+    <table id="confirmit_agg_table" class="t0_table Table">
+      <thead>
+      <tr class="t0_tr TableRow">
+        <td class="t0_cc"/>
+        <td class="t0_chc">Completeness</td>
+        <td class="t0_chc">Quality</td>
+        <td class="t0_chc">Overall</td>
+      </tr>
+      </thead>
+      <tbody>
+      <tr class="t0_tr TableRow">
+        <td class="t0_rhc">India</td>
+        <td class="t0_dc TableDataCell">43</td>
+        <td class="t0_dc TableDataCell">24</td>
+        <td class="t0_dc TableDataCell">97</td>
+      </tr>
+      <tr class="t0_tr TableRow">
+        <td class="t0_rhc">Germany</td>
+        <td class="t0_dc TableDataCell">12</td>
+        <td class="t0_dc TableDataCell">09</td>
+        <td class="t0_dc TableDataCell">26</td>
+      </tr>
+      <tr class="t0_tr TableRow">
+        <td class="t0_rhc">United Kingdom</td>
+        <td class="t0_dc TableDataCell">42</td>
+        <td class="t0_dc TableDataCell">34</td>
+        <td class="t0_dc TableDataCell">19</td>
+      </tr>
+      <tr class="t0_tr TableRow">
+        <td class="t0_rhc">In Country</td>
+        <td class="t0_dc TableDataCell">35</td>
+        <td class="t0_dc TableDataCell">32</td>
+        <td class="t0_dc TableDataCell">54</td>
+      </tr>
+      <tr class="t0_tr TableRow">
+        <td class="t0_rhc">Above country</td>
+        <td class="t0_dc TableDataCell">43</td>
+        <td class="t0_dc TableDataCell">67</td>
+        <td class="t0_dc TableDataCell">23</td>
+      </tr>
+      <tr class="t0_tr TableRow">
+      <td class="t0_rhc">added country</td>
+      <td class="t0_dc TableDataCell">23</td>
+      <td class="t0_dc TableDataCell">34</td>
+      <td class="t0_dc TableDataCell">89</td>
+      </tr>
+      </tbody>
+    </table>
+  </span>
+
+<div id="bar-chart-container" class="width-60"></div>
+<div id="score-container" class="width-40 ">
+  <p class="text-center">SCORE</p>
+  <table id="score-table">
+    <tr class="t0_tr TableRow">
+      <td></td>
+      <td class="text-center">Completeness</td>
+      <td class="text-center">Quality</td>
+    </tr>
+  </table>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
+<script src="http://code.highcharts.com/modules/exporting.js"></script>
+<script src="js/barChartModule.js"></script>
+<script src="js/barViewController.js"></script>
+</body>
+</html>

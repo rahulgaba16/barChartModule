@@ -1,0 +1,59 @@
+.width-60 {
+	width: 60%;
+}
+
+.width-40 {
+	padding-left: 5%;
+	width: 35%;
+}
+
+.width-40, .width-60 {
+	float: left;
+}
+
+#data-tables {
+	display: none;
+}
+
+#score-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.text-center {
+	text-align: center;
+}
+.average-label{
+	width: 30px;
+	height: 30px;
+	background-color: #FFA800;
+	border-radius: 100px;
+	color: white;
+	position: relative;
+}
+.average-label .average-val{
+	position: absolute;
+	top: 7px;
+	text-align: center;
+	width: 100%;
+}
+.text-circle{
+	padding: 10px;
+	border-radius: 25px;
+	background-color: #CFCFCF;
+	color: white;
+}
+.score-row{
+	height: 50px;
+	border-bottom: 1pt solid #CFCFCF;
+
+}
+.red-back{
+	background-color: #D0584F;
+}
+.green-back{
+	background-color: #9DC850;
+}
+.body-container{
+	padding: 0 50px;
+}
